@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skyguard: Roofing & Repair</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+  </head>
+  <body id="home">
+    <nav class="navbar">
+      <div class="logo-section">
+        <img src="assets/skyguard-logo.png" alt="SKYGUARD Logo" class="logo" />
+        <div class="company-name">SKYGUARD</div>
+      </div>
+
+      <!-- Menu Toggle Button with Font Awesome Icon -->
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#promise">Our Promise</a>
+        <a href="https://forms.gle/E6DEJvoWB3Jq5NXh8" class="book-now" target="_blank">Book Now</a>
+      </div>
+    </nav>
+
+    <section class="landing-image">
+      <img src="assets/title-image.png" alt="Skyguard Roofing & Repair" class="title-image" />
+      <div class="title">
+        Protect your home with<br />
+        <span class="gradient">Skyguard Roofing</span>
+      </div>
+      <div class="subheading">
+        We deliver high-quality roofing solutions<br />
+        designed to protect your home<br />
+        —all at competitive prices.<br />
+        Because we know your home deserves the best,<br />
+        without breaking the bank.
+      </div>
+      <div class="contact-form">
+        <h2>Start your free estimate here</h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="e91b89ce-c623-4547-88ad-7359b0086d69" />
+
+          <label for="full-name">Full Name *</label>
+          <input type="text" id="full-name" name="name" required />
+
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="phone">Phone Number *</label>
+          <input type="tel" id="phone" name="phone" required />
+
+          <label for="address">Address (optional)</label>
+          <input type="text" id="address" name="address" />
+
+          <label for="service">Service Interested *</label>
+          <select id="service" name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option value="inspection">Inspection</option>
+            <option value="leak-prevention">Leak Prevention & Roof Repair</option>
+            <option value="reshingling">Reshingling</option>
+            <option value="gutter-cleaning">Gutter Cleaning</option>
+            <option value="exterior-painting">Exterior Painting or Window Washing</option>
+            <option value="ice-damming">Ice Damming</option>
+          </select>
+
+          <label for="extra-info">Any Extra Detailed Information (optional)</label>
+          <textarea id="extra-info" name="message"></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="services" class="services-section">
+      <h3 class="services-title">— ROOFING SERVICES —</h3>
+
+      <h2 class="services-subtitle">
+        <span class="gradient2">ALL YOUR SERVICES UNDER ONE ROOF</span>
+      </h2>
+
+      <div class="services-grid">
+        <div class="service-item">
+          <img src="assets/repair-icon.png" alt="Leak Prevention Icon" />
+          <div>
+            <p class="service-name">Leak Prevention & Repairs</p>
+            <p class="service-description">
+              We provide comprehensive services, from minor repairs to extensive fixes, ensuring your home remains
+              protected from water damage.
+            </p>
+          </div>
+        </div>
+        <div class="service-item">
+          <img src="assets/shingling-icon.png" alt="Leak Prevention Icon" />
+          <div>
+            <p class="service-name">Reshingling</p>
+            <p class="service-description">
+              Our team offers expert reshingling services to enhance your roof’s durability and improve its aesthetic
+              appeal.
+            </p>
+          </div>
+        </div>
+        <div class="service-item">
+          <img src="assets/gutter-icon.png" alt="Leak Prevention Icon" />
+          <div>
+            <p class="service-name">Gutter Cleaning</p>
+            <p class="service-description">
+              Trust our professionals to eliminate clogged gutters, ensuring optimal drainage and preventing damage to
+              your property
+            </p>
+          </div>
+        </div>
+        <div class="service-item">
+          <img src="assets/painting-icon.png" alt="Leak Prevention Icon" />
+          <div>
+            <p class="service-name">Exterior Painting</p>
+            <p class="service-description">
+              We manage all aspects of exterior painting, including hard-to-reach areas such as windows and doors
+            </p>
+          </div>
+        </div>
+        <div class="service-item">
+          <img src="assets/ice-icon.png" alt="Leak Prevention Icon" />
+          <div>
+            <p class="service-name">Ice Damming Prevention</p>
+            <p class="service-description">
+              Our specialists safely and effectively address ice buildup on roof edges, safeguarding your home from
+              potential damage.
+            </p>
+          </div>
+        </div>
+        <div class="service-item">
+          <img src="assets/window-icon.png" alt="Leak Prevention Icon" />
+          <div>
+            <p class="service-name">Window Washing</p>
+            <p class="service-description">
+              We offer thorough cleaning services for your windows, ensuring clarity and shine for an inviting view.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-image">
+      <img src="assets/section-image.png" alt="House image" />
+    </section>
+
+    <section id="promise" class="promise-section">
+      <h3 class="promise-title">GUARANTEE</h3>
+      <h3 class="promise-subtitle">Skyguard's Roofing Promise</h3>
+      <h2 class="promise-description">To give you extra peace of mind, we’ve put our service guarantee in writing</h2>
+      <div class="promise-grid">
+        <div class="promise-item">
+          <img src="assets/pi1.png" alt="Icon 1" />
+          <div>
+            <h4 class="topic-heading">Fast Response</h4>
+            <p class="topic-description">
+              We will respond to your inquiries promptly, ensuring that all phone calls are addressed within one to two
+              business days.
+            </p>
+          </div>
+        </div>
+
+        <div class="promise-item">
+          <img src="assets/pi2.png" alt="Icon 2" />
+          <div>
+            <h4 class="topic-heading">Expert Team</h4>
+            <p class="topic-description">
+              Our team consists of courteous and well-informed professionals, committed to providing you with
+              exceptional service.
+            </p>
+          </div>
+        </div>
+
+        <div class="promise-item">
+          <img src="assets/pi3.png" alt="Icon 3" />
+          <div>
+            <h4 class="topic-heading">Forget The Mess!</h4>
+            <p class="topic-description">
+              We prioritise cleanliness by removing all debris. Rest assured, no large bins or other materials will
+              remain on your property.
+            </p>
+          </div>
+        </div>
+
+        <div class="promise-item">
+          <img src="assets/pi4.png" alt="Icon 4" />
+          <div>
+            <h4 class="topic-heading">Nothing Left Overnight</h4>
+            <p class="topic-description">
+              We take the protection of your home seriously. We guarantee that no materials will be left exposed to the
+              elements while we are on-site.
+            </p>
+          </div>
+        </div>
+
+        <div class="promise-item">
+          <img src="assets/pi5.png" alt="Icon 5" />
+          <div>
+            <h4 class="topic-heading">Quiet as a Roofer!</h4>
+            <p class="topic-description">
+              To maintain good relations, we provide door hangers with our contact information to neighbouring
+              properties. This way, in the unlikely event of any issues, they can reach out to us directly.
+            </p>
+          </div>
+        </div>
+
+        <div class="promise-item">
+          <img src="assets/pi6.png" alt="Icon 6" />
+          <div>
+            <h4 class="topic-heading">Quality Assurance</h4>
+            <p class="topic-description">
+              We stand by the quality of our work and offer a satisfaction guarantee. If you have any concerns after the
+              completion of our services, we will address them promptly to ensure your complete satisfaction.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="book-now-button-div">
+        <a href="https://forms.gle/ibYgNibDw3ZqddKGA" target="_blank" style="text-decoration: none">
+          <button class="book-now-button">Book Now</button>
+        </a>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+      <h3 class="testimonials-title">Satisfied Customers</h3>
+      <div class="testimonials-container">
+        <div class="testimonial">
+          <img src="assets/sr1.png" alt="Star Rating" class="testimonial-rating" />
+          <h4 class="testimonial-title">"Professional And Reliable Service"</h4>
+          <p class="testimonial-text">
+            I was impressed by how smooth the entire process was. This team was professional and handled my situation
+            very well. It's rare to find this level of service these days.
+          </p>
+          <p class="testimonial-sign">- Khalid A</p>
+        </div>
+        <div class="testimonial">
+          <img src="assets/sr1.png" alt="Star Rating" class="testimonial-rating" />
+          <h4 class="testimonial-title">"Highly Recommend Skyguard Roofing!"</h4>
+          <p class="testimonial-text">
+            Skyguard Roofing went above and beyond for us. From the initial consultation to the last nail, they made
+            sure every detail was perfect. I’d highly recommend them to anyone needing quality service".
+          </p>
+          <p class="testimonial-sign">- Mia Matthews</p>
+        </div>
+        <div class="testimonial">
+          <img src="assets/sr1.png" alt="Star Rating" class="testimonial-rating" />
+          <h4 class="testimonial-title">Exceeded My Expectation</h4>
+          <p class="testimonial-text">
+            I didn’t expect much from a young team, but they proved me wrong! Very professional, and the repair was also
+            done exceptionally. Better than other companies I’ve hired before for repair.
+          </p>
+          <p class="testimonial-sign">- Syed Ali</p>
+        </div>
+        <div class="testimonial">
+          <img src="assets/sr3.png" alt="Star Rating" class="testimonial-rating" />
+          <h4 class="testimonial-title">Quality Workmanship</h4>
+          <p class="testimonial-text">
+            The roofing job was top-notch, and the team left the place spotless. Skyguard Roofing’s quality and
+            attention to detail blew us away, we couldn’t be happier with the results.
+          </p>
+          <p class="testimonial-sign">- Vaibhav Sunder (-Shukla)</p>
+        </div>
+        <div class="testimonial">
+          <img src="assets/sr1.png" alt="Star Rating" class="testimonial-rating" />
+          <h4 class="testimonial-title">Great Experience</h4>
+          <p class="testimonial-text">
+            Skyguard Roofing impressed me A LOT! The team treated my home with so much respect, it's rare to find this
+            kind of dedication to quality and customer satisfaction. I would gladly recommend them.
+          </p>
+          <p class="testimonial-sign">- Daniel R. Panza</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="full-width-image">
+      <div class="image-container">
+        <img src="assets/cwp.png" alt="Full Width Image" class="responsive-image" />
+        <div class="icons-container">
+          <div class="icon-item">
+            <img src="assets/icon1.png" alt="Expert Craftsmanship" class="icon" />
+            <p class="icon-text">Expert Craftsmanship</p>
+          </div>
+          <div class="icon-item">
+            <img src="assets/icon2.png" alt="Reliable Service" class="icon" />
+            <p class="icon-text">Reliable Service</p>
+          </div>
+          <div class="icon-item">
+            <img src="assets/icon3.png" alt="Quality Materials" class="icon" />
+            <p class="icon-text">Quality Materials</p>
+          </div>
+          <div class="icon-item">
+            <img src="assets/icon4.png" alt="Customer Satisfaction" class="icon" />
+            <p class="icon-text">Customer Satisfaction</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="legal-section">
+      <div class="legal-section-container">
+        <div class="legal-container">
+          <h4>Legal:</h4>
+          <br />
+          <ul>
+            <li>
+              <a
+                href="https://docs.google.com/document/d/1V1Znl1PFh3Pi-H3OItZppULTVNGWLhFV7DLTj8og6tM/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://docs.google.com/document/d/1sR8I86YluOMP2cofgr-iNrEYDiy8QkI3jbgiHu8yVKk/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Terms and Conditions</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-container">
+          <h4>Contact:</h4>
+          <br />
+          <p>Skyguard</p>
+          <p>Toronto ON, Canada</p>
+          <p>(905) 997-3366</p>
+          <p>skyguard.intel@gmail.com</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <div class="footer-section">
+      <p>© 2024 by Skyguard Roofing™ - Website created by Syed Qadri</p>
+    </div>
+
+    <script>
+      let lastScroll = 0;
+      const navbar = document.querySelector(".navbar");
+
+      window.addEventListener("scroll", () => {
+        const currentScroll = window.pageYOffset;
+
+        if (currentScroll <= 0) {
+          navbar.classList.remove("hidden");
+          return;
+        }
+
+        if (currentScroll > lastScroll && !navbar.classList.contains("hidden")) {
+          navbar.classList.add("hidden");
+        } else if (currentScroll < lastScroll && navbar.classList.contains("hidden")) {
+          navbar.classList.remove("hidden");
+        }
+        lastScroll = currentScroll;
+      });
+    </script>
+
+    <script>
+      document.querySelectorAll(".nav-links a").forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          const targetId = this.getAttribute("href");
+          if (targetId.startsWith("#")) {
+            e.preventDefault();
+            document.querySelector(targetId).scrollIntoView({
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+    </script>
+
+    <script>
+      document.querySelector(".menu-toggle").addEventListener("click", () => {
+        document.querySelector(".nav-links").classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
